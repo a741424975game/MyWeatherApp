@@ -25,6 +25,9 @@
 		191F98891CA837D600222021 /* setting_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 191F98851CA837D600222021 /* setting_right@2x.png */; };
 		191F988A1CA837D600222021 /* settings_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 191F98861CA837D600222021 /* settings_hover.png */; };
 		191F988B1CA837D600222021 /* settings_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 191F98871CA837D600222021 /* settings_hover@2x.png */; };
+		19B14EEB1CA8535D00A9D2EC /* City.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19B14EEA1CA8535D00A9D2EC /* City.plist */; };
+		19B14EF01CA8653400A9D2EC /* location_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B14EEE1CA8653400A9D2EC /* location_icon.png */; };
+		19B14EF11CA8653400A9D2EC /* location_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B14EEF1CA8653400A9D2EC /* location_icon@2x.png */; };
 		384452C4F605B3577BC2B2EB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76AF4A9332F78091AF5FF71 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +73,9 @@
 		191F98851CA837D600222021 /* setting_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_right@2x.png"; sourceTree = "<group>"; };
 		191F98861CA837D600222021 /* settings_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_hover.png; sourceTree = "<group>"; };
 		191F98871CA837D600222021 /* settings_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_hover@2x.png"; sourceTree = "<group>"; };
+		19B14EEA1CA8535D00A9D2EC /* City.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = City.plist; sourceTree = "<group>"; };
+		19B14EEE1CA8653400A9D2EC /* location_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_icon.png; sourceTree = "<group>"; };
+		19B14EEF1CA8653400A9D2EC /* location_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location_icon@2x.png"; sourceTree = "<group>"; };
 		2E78B5A0C4D24959A15CBEF7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		651601148019F12DF527DB2B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B76AF4A9332F78091AF5FF71 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				190E0CB41CA6FDE20033D7E8 /* AppDelegate.swift */,
+				19B14EEA1CA8535D00A9D2EC /* City.plist */,
 				190E0CC31CA6FDE20033D7E8 /* Info.plist */,
 				190E0CBB1CA6FDE20033D7E8 /* MyWeatherApp.xcdatamodeld */,
 				190E0CC01CA6FDE20033D7E8 /* LaunchScreen.storyboard */,
@@ -185,6 +192,8 @@
 		191F98411CA7CDB900222021 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19B14EEE1CA8653400A9D2EC /* location_icon.png */,
+				19B14EEF1CA8653400A9D2EC /* location_icon@2x.png */,
 				191F98841CA837D600222021 /* setting_right.png */,
 				191F98851CA837D600222021 /* setting_right@2x.png */,
 				191F98861CA837D600222021 /* settings_hover.png */,
@@ -327,9 +336,12 @@
 			files = (
 				191F98481CA7CE7900222021 /* category_normal.png in Resources */,
 				190E0CC21CA6FDE20033D7E8 /* LaunchScreen.storyboard in Resources */,
+				19B14EF11CA8653400A9D2EC /* location_icon@2x.png in Resources */,
 				190E0CBF1CA6FDE20033D7E8 /* Assets.xcassets in Resources */,
 				191F988A1CA837D600222021 /* settings_hover.png in Resources */,
+				19B14EF01CA8653400A9D2EC /* location_icon.png in Resources */,
 				191F988B1CA837D600222021 /* settings_hover@2x.png in Resources */,
+				19B14EEB1CA8535D00A9D2EC /* City.plist in Resources */,
 				191F98471CA7CE7900222021 /* category_hover@2x.png in Resources */,
 				191F98461CA7CE7900222021 /* category_hover.png in Resources */,
 				191F98891CA837D600222021 /* setting_right@2x.png in Resources */,

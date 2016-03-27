@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "settingTableViewController.tableView(UITableView, titleForHeaderInSection : Int) -&gt; String?:settingTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "setting.allValues[0].allKeys[0].description">
+            </PersistentString>
+            <PersistentString
+               value = "setting.allKeys[section].description">
+            </PersistentString>
+            <PersistentString
+               value = "return setting.allValues[section].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "settingTableViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:settingTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "setting.allValues[section].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "mainViewController.viewDidLoad() -&gt; ():mainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSUserDefaults.standardUserDefaults().valueForKey(&quot;defaultCity&quot;) != nil)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
