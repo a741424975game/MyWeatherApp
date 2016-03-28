@@ -13,6 +13,8 @@ class mainViewController: UIViewController {
 
 
     
+    @IBOutlet weak var cityLabel: UILabel!
+    
     @IBOutlet weak var cityTF: UITextField!
     
     @IBOutlet weak var tempTF: UITextField!
@@ -60,6 +62,7 @@ class mainViewController: UIViewController {
             let json = try NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.AllowFragments)
             let weatherInfo = json.valueForKey("weatherinfo")
             cityTF.text = weatherInfo!.valueForKey("city")?.description
+            cityLabel.text = weatherInfo!.valueForKey("city")?.description
             tempTF.text = weatherInfo!.valueForKey("temp")?.description
             windTF.text = weatherInfo!.valueForKey("WD")?.description
             

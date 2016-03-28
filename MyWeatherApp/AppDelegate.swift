@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     let kKGDrawersStoryboardName = "Main"
-    let kKGCenterViewControllerStoryboardId = "navigationController"
+    let kKGCenterViewControllerStoryboardId = "mainViewController"
     let kKGLeftDrawerStoryboardId = "weatherForecastTableViewController"
     let kKGRightDrawerStoryboardId = "settingTableViewController"
     
